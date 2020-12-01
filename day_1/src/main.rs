@@ -1,20 +1,12 @@
 use std::{process::exit, fs};
 
 fn main() {
-    let filename = "input";
-    let contents = fs::read_to_string(filename)
-        .expect("unable to read file");
-    let lines: Vec<&str> = contents.split('\n').collect();
-    let mut nums = Vec::new();
-
-    for x in lines.iter(){
-        let item = match x.parse::<i32>() {
-            Ok(i) => i,
-            _ => continue
-        };
-        nums.push(item);
-    }
-
+    let nums: Vec<i32> = fs::read_to_string("input")
+        .expect("unable to read file")
+        .lines()
+        .map(|x| x.trim().parse::<i32>().unwrap())
+        .collect();
+    
     // do the actual question
     for i in nums.iter(){
         for j in nums.iter() {
