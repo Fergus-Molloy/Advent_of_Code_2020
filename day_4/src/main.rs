@@ -12,10 +12,57 @@ use std::fs;
 fn main() {
     let content = fs::read_to_string("input").expect("unable to read file");
     println!("Part One: {}", part_one(&content));
+    println!("Part Two: {}", part_two(&content));
 }
 
-fn part_one(s: &str) -> u32 {
-#![allow(unused_variables)]
+pub fn part_one(s: &str) -> u32 {
+    //we need to find empty lines and split on them
+    //empty lines will be empty strings in this array
+    let lines: Vec<&str> = s.split("\n").collect();
+    let mut total = 0;
+    let mut byr = false;
+    let mut iyr = false;
+    let mut eyr = false;
+    let mut hgt = false;
+    let mut hcl = false;
+    let mut ecl = false;
+    let mut pid = false;
+    
+    for x in lines.iter(){
+        if x.len() == 0{
+            //check if passport is valid
+            if byr && iyr && eyr && hgt && hcl && ecl && pid {
+                total += 1;
+            }
+            //reset checks
+            byr = false;
+            iyr = false;
+            eyr = false;
+            hgt = false;
+            hcl = false;
+            ecl = false;
+            pid = false;
+        }
+        else {
+            let fields: Vec<&str> = x.split_whitespace().collect();
+            for y in fields.iter(){
+                match y.get(0..3).unwrap() {
+                    "byr" => byr=true,
+                    "iyr" => iyr=true,
+                    "eyr" => eyr=true,
+                    "hgt" => hgt=true,
+                    "hcl" => hcl=true,
+                    "ecl" => ecl=true,
+                    "pid" => pid=true,
+                    _ => continue
+                }
+            }
+        }
+    }
+    total
+}
+
+pub fn part_two(s: &str) -> u32 {
     //we need to find empty lines and split on them
     //empty lines will be empty strings in this array
     let lines: Vec<&str> = s.split("\n").collect();
