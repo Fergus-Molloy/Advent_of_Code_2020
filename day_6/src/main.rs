@@ -7,7 +7,7 @@ fn main() {
 
 }
 
-fn part_one(contents: &String) -> u32 {
+pub fn part_one(contents: &String) -> u32 {
     let mut total = 0;
     let mut count = 0;
     let mut answers: HashMap<char, u32> = HashMap::new();
@@ -30,7 +30,7 @@ fn part_one(contents: &String) -> u32 {
     total
 }
 
-fn part_two(contents: &String) -> u32 {
+pub fn part_two(contents: &String) -> u32 {
     let mut total = 0;
     let mut count = 0;
     let mut lines = 0;
