@@ -1,15 +1,15 @@
 use std::collections::HashMap;
 use std::fs;
-use std::rc::Rc;
 
 fn main() {
     let contents = fs::read_to_string("input").expect("unable to read file");
     let lines: Vec<String> = contents.lines().map(|x| x.to_string()).collect();
-    println!("part one: {}", part_one(&lines));
-    println!("part two: {}", part_two(&lines));
+    let map: HashMap<String, Vec<(u32, String)>> = parse(&lines);
+    println!("part one: {}", part_one(&map));
+    println!("part two: {}", part_two(&map));
 }
 
-fn parse(lines: &Vec<String>) -> HashMap<String, Vec<(u32, String)>> {
+pub fn parse(lines: &Vec<String>) -> HashMap<String, Vec<(u32, String)>> {
     let mut map: HashMap<String, Vec<(u32, String)>> = HashMap::new();
 
     for s in lines.iter() {
@@ -35,23 +35,19 @@ fn parse(lines: &Vec<String>) -> HashMap<String, Vec<(u32, String)>> {
     map
 }
 
-fn part_one(lines: &Vec<String>) -> u32 {
-    let map: HashMap<String, Vec<(u32, String)>> = parse(lines);
+pub fn part_one(map: &HashMap<String, Vec<(u32, String)>>) -> u32 {
     let mut total = 0;
     // cloneing references is much faster
-    let map_ref = Rc::new(map);
-    for key in map_ref.keys() {
-        if golden(key, &map_ref) {
+    for key in map.keys() {
+        if golden(key, map) {
             total += 1
         }
     }
     total
 }
 
-fn part_two(lines: &Vec<String>) -> u32 {
-    let map: HashMap<String, Vec<(u32, String)>> = parse(lines);
-    let map_ref = map;
-    count(&"shiny gold".to_string(), &map_ref) - 1
+pub fn part_two(map: &HashMap<String, Vec<(u32, String)>>) -> u32 {
+    count(&"shiny gold".to_string(), &map) - 1
 }
 
 fn count(key: &String, map: &HashMap<String, Vec<(u32, String)>>) -> u32 {
