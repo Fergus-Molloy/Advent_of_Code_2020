@@ -1,5 +1,5 @@
-use day_6::main::{part_one, part_two};
 use criterion::{criterion_group, criterion_main, Criterion};
+use day_6::main::{part_one, part_two};
 use std::fs;
 
 fn criterion_benchmark(c: &mut Criterion) {

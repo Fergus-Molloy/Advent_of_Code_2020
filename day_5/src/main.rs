@@ -8,12 +8,12 @@ fn main() {
 }
 
 pub fn part_one(lines: &Vec<&str>) -> u32 {
-    let mut big =0;
+    let mut big = 0;
     for line in lines.iter() {
         let mut row: u8 = 127;
         let mut iter = line.chars();
         for x in (0..7).rev() {
-            if iter.next().unwrap() == 'F'{
+            if iter.next().unwrap() == 'F' {
                 row &= 127 - (2 as u8).pow(x);
             }
         }
@@ -23,7 +23,7 @@ pub fn part_one(lines: &Vec<&str>) -> u32 {
                 col &= 7 - (2 as u8).pow(x);
             }
         }
-        let ID:u32 = (row as u32 *8)+col as u32;
+        let ID: u32 = (row as u32 * 8) + col as u32;
         if ID > big {
             big = ID;
         }
@@ -32,12 +32,12 @@ pub fn part_one(lines: &Vec<&str>) -> u32 {
 }
 
 pub fn part_two(lines: &Vec<&str>) -> u32 {
-    let mut plane: [[bool; 8];128] = [[false;8];128];
+    let mut plane: [[bool; 8]; 128] = [[false; 8]; 128];
     for line in lines.iter() {
         let mut row: usize = 127;
         let mut iter = line.chars();
         for x in (0..7).rev() {
-            if iter.next().unwrap() == 'F'{
+            if iter.next().unwrap() == 'F' {
                 row &= 127 - (2 as usize).pow(x);
             }
         }
@@ -47,7 +47,7 @@ pub fn part_two(lines: &Vec<&str>) -> u32 {
                 col &= 7 - (2 as usize).pow(x);
             }
         }
-        plane[row][col]= true;
+        plane[row][col] = true;
     }
 
     //for finding out how many rows to ignore
@@ -55,17 +55,16 @@ pub fn part_two(lines: &Vec<&str>) -> u32 {
     //    println!("{:?}", x)
     //}
 
-    // should have a map of filled seats i know mine 
+    // should have a map of filled seats i know mine
     // is in the middle somewhere
-    for x in 4..120 { //can't be in first or last row
+    for x in 4..120 {
+        //can't be in first or last row
         for y in 0..7 {
-            if !plane[x][y]{
-                return ((x*8)+y) as u32;
+            if !plane[x][y] {
+                return ((x * 8) + y) as u32;
             }
         }
     }
 
-
-    
     0
 }

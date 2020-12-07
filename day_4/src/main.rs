@@ -27,9 +27,9 @@ pub fn part_one(s: &str) -> u32 {
     let mut hcl = false;
     let mut ecl = false;
     let mut pid = false;
-    
-    for x in lines.iter(){
-        if x.len() == 0{
+
+    for x in lines.iter() {
+        if x.len() == 0 {
             //check if passport is valid
             if byr && iyr && eyr && hgt && hcl && ecl && pid {
                 total += 1;
@@ -42,19 +42,18 @@ pub fn part_one(s: &str) -> u32 {
             hcl = false;
             ecl = false;
             pid = false;
-        }
-        else {
+        } else {
             let fields: Vec<&str> = x.split_whitespace().collect();
-            for y in fields.iter(){
+            for y in fields.iter() {
                 match y.get(0..3).unwrap() {
-                    "byr" => byr=true,
-                    "iyr" => iyr=true,
-                    "eyr" => eyr=true,
-                    "hgt" => hgt=true,
-                    "hcl" => hcl=true,
-                    "ecl" => ecl=true,
-                    "pid" => pid=true,
-                    _ => continue
+                    "byr" => byr = true,
+                    "iyr" => iyr = true,
+                    "eyr" => eyr = true,
+                    "hgt" => hgt = true,
+                    "hcl" => hcl = true,
+                    "ecl" => ecl = true,
+                    "pid" => pid = true,
+                    _ => continue,
                 }
             }
         }
@@ -74,9 +73,9 @@ pub fn part_two(s: &str) -> u32 {
     let mut hcl = false;
     let mut ecl = false;
     let mut pid = false;
-    
-    for x in lines.iter(){
-        if x.len() == 0{
+
+    for x in lines.iter() {
+        if x.len() == 0 {
             //check if passport is valid
             if byr && iyr && eyr && hgt && hcl && ecl && pid {
                 total += 1;
@@ -89,19 +88,18 @@ pub fn part_two(s: &str) -> u32 {
             hcl = false;
             ecl = false;
             pid = false;
-        }
-        else {
+        } else {
             let fields: Vec<&str> = x.split_whitespace().collect();
-            for y in fields.iter(){
+            for y in fields.iter() {
                 match y.get(0..3).unwrap() {
-                    "byr" => byr=check_byr(&y),
-                    "iyr" => iyr=check_iyr(&y),
-                    "eyr" => eyr=check_eyr(&y),
-                    "hgt" => hgt=check_hgt(&y),
-                    "hcl" => hcl=check_hcl(&y),
-                    "ecl" => ecl=check_ecl(&y),
-                    "pid" => pid=check_pid(&y),
-                    _ => continue
+                    "byr" => byr = check_byr(&y),
+                    "iyr" => iyr = check_iyr(&y),
+                    "eyr" => eyr = check_eyr(&y),
+                    "hgt" => hgt = check_hgt(&y),
+                    "hcl" => hcl = check_hcl(&y),
+                    "ecl" => ecl = check_ecl(&y),
+                    "pid" => pid = check_pid(&y),
+                    _ => continue,
                 }
             }
         }
@@ -111,7 +109,7 @@ pub fn part_two(s: &str) -> u32 {
 fn check_byr(s: &str) -> bool {
     let value = s.split(':').last().unwrap();
     if value.len() != 4 {
-       return false
+        return false;
     }
     let value: u32 = value.parse().unwrap();
     value >= 1920 && value <= 2002
@@ -119,7 +117,7 @@ fn check_byr(s: &str) -> bool {
 fn check_iyr(s: &str) -> bool {
     let value = s.split(':').last().unwrap();
     if value.len() != 4 {
-       return false
+        return false;
     }
     let value: u32 = value.parse().unwrap();
     value >= 2010 && value <= 2020
@@ -127,7 +125,7 @@ fn check_iyr(s: &str) -> bool {
 fn check_eyr(s: &str) -> bool {
     let value = s.split(':').last().unwrap();
     if value.len() != 4 {
-       return false
+        return false;
     }
     let value: u32 = value.parse().unwrap();
     value >= 2020 && value <= 2030
@@ -135,21 +133,19 @@ fn check_eyr(s: &str) -> bool {
 fn check_hgt(s: &str) -> bool {
     let value = s.split(':').last().unwrap();
     if value.ends_with("cm") {
-        let num:u32 = value.get(0..(value.len()-2)).unwrap().parse().unwrap();
+        let num: u32 = value.get(0..(value.len() - 2)).unwrap().parse().unwrap();
         num >= 150 && num <= 193
-    }
-    else if value.ends_with("in") {
-        let num:u32 = value.get(0..(value.len()-2)).unwrap().parse().unwrap();
+    } else if value.ends_with("in") {
+        let num: u32 = value.get(0..(value.len() - 2)).unwrap().parse().unwrap();
         num >= 59 && num <= 76
-    }
-    else{
+    } else {
         false
     }
 }
 fn check_hcl(s: &str) -> bool {
     let value = s.split(':').last().unwrap();
     if value.len() != 7 {
-        return false
+        return false;
     }
     if value.chars().next().unwrap() == '#' {
         let num = value.trim_start_matches("#");
@@ -158,8 +154,7 @@ fn check_hcl(s: &str) -> bool {
             Ok(_) => true,
             Err(_) => false,
         }
-    }
-    else {
+    } else {
         false
     }
 }
@@ -180,8 +175,7 @@ fn check_pid(s: &str) -> bool {
     let value = s.split(':').last().unwrap();
     if value.len() != 9 {
         false
-    }
-    else{
+    } else {
         let num = value.parse::<u32>();
         match num {
             Ok(_) => true,
