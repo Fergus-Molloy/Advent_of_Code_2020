@@ -1,0 +1,1553 @@
+R 180
+Now facing: West
+E 1
+Moved from (0,0) to (1,0)
+N 1
+Moved from (1,0) to (1,1)
+R 90
+Now facing: North
+E 4
+Moved from (1,1) to (5,1)
+F 84
+Moved from (5,1) to (5,85)
+W 3
+Moved from (5,85) to (8,85)
+F 19
+Moved from (8,85) to (8,104)
+E 5
+Moved from (8,104) to (13,104)
+N 1
+Moved from (13,104) to (13,105)
+W 5
+Moved from (13,105) to (18,105)
+W 4
+Moved from (18,105) to (22,105)
+R 90
+Now facing: East
+S 1
+Moved from (22,105) to (22,106)
+F 70
+Moved from (22,106) to (92,106)
+R 90
+Now facing: South
+W 2
+Moved from (92,106) to (94,106)
+S 3
+Moved from (94,106) to (94,109)
+L 180
+Now facing: North
+E 2
+Moved from (94,109) to (96,109)
+R 90
+Now facing: East
+E 1
+Moved from (96,109) to (97,109)
+R 90
+Now facing: South
+N 2
+Moved from (97,109) to (97,111)
+E 3
+Moved from (97,111) to (100,111)
+F 55
+Moved from (100,111) to (100,56)
+W 3
+Moved from (100,56) to (103,56)
+R 90
+Now facing: West
+S 2
+Moved from (103,56) to (103,58)
+E 4
+Moved from (103,58) to (107,58)
+L 90
+Now facing: North
+F 33
+Moved from (107,58) to (107,91)
+W 4
+Moved from (107,91) to (111,91)
+S 3
+Moved from (111,91) to (111,94)
+F 11
+Moved from (111,94) to (111,105)
+N 4
+Moved from (111,105) to (111,109)
+W 4
+Moved from (111,109) to (115,109)
+F 88
+Moved from (115,109) to (115,197)
+W 3
+Moved from (115,197) to (118,197)
+F 62
+Moved from (118,197) to (118,259)
+L 90
+Now facing: East
+S 3
+Moved from (118,259) to (118,262)
+W 3
+Moved from (118,262) to (121,262)
+N 1
+Moved from (121,262) to (121,263)
+E 3
+Moved from (121,263) to (124,263)
+E 2
+Moved from (124,263) to (126,263)
+N 1
+Moved from (126,263) to (126,264)
+E 3
+Moved from (126,264) to (129,264)
+S 3
+Moved from (129,264) to (129,267)
+E 5
+Moved from (129,267) to (134,267)
+S 4
+Moved from (134,267) to (134,271)
+W 5
+Moved from (134,271) to (139,271)
+L 90
+Now facing: South
+W 5
+Moved from (139,271) to (144,271)
+R 90
+Now facing: West
+E 4
+Moved from (144,271) to (148,271)
+F 36
+Moved from (148,271) to (112,271)
+N 4
+Moved from (112,271) to (112,275)
+E 4
+Moved from (112,275) to (116,275)
+E 5
+Moved from (116,275) to (121,275)
+F 47
+Moved from (121,275) to (74,275)
+R 90
+Now facing: North
+N 3
+Moved from (74,275) to (74,278)
+E 3
+Moved from (74,278) to (77,278)
+L 180
+Now facing: South
+S 5
+Moved from (77,278) to (77,283)
+R 90
+Now facing: West
+S 5
+Moved from (77,283) to (77,288)
+W 2
+Moved from (77,288) to (79,288)
+S 3
+Moved from (79,288) to (79,291)
+F 43
+Moved from (79,291) to (36,291)
+W 2
+Moved from (36,291) to (38,291)
+R 180
+Now facing: East
+W 2
+Moved from (38,291) to (40,291)
+S 2
+Moved from (40,291) to (40,293)
+L 180
+Now facing: West
+E 2
+Moved from (40,293) to (42,293)
+F 49
+Moved from (42,293) to (-7,293)
+L 90
+Now facing: North
+F 77
+Moved from (-7,293) to (-7,370)
+S 5
+Moved from (-7,370) to (-7,375)
+E 1
+Moved from (-7,375) to (-6,375)
+S 2
+Moved from (-6,375) to (-6,377)
+F 39
+Moved from (-6,377) to (-6,416)
+L 180
+Now facing: South
+F 12
+Moved from (-6,416) to (-6,404)
+W 1
+Moved from (-6,404) to (-5,404)
+L 90
+Now facing: West
+F 60
+Moved from (-5,404) to (-65,404)
+S 2
+Moved from (-65,404) to (-65,406)
+E 3
+Moved from (-65,406) to (-62,406)
+N 1
+Moved from (-62,406) to (-62,407)
+E 5
+Moved from (-62,407) to (-57,407)
+R 90
+Now facing: North
+E 1
+Moved from (-57,407) to (-56,407)
+N 4
+Moved from (-56,407) to (-56,411)
+W 4
+Moved from (-56,411) to (-52,411)
+S 4
+Moved from (-52,411) to (-52,415)
+E 2
+Moved from (-52,415) to (-50,415)
+L 90
+Now facing: East
+F 100
+Moved from (-50,415) to (50,415)
+E 3
+Moved from (50,415) to (53,415)
+F 58
+Moved from (53,415) to (111,415)
+S 2
+Moved from (111,415) to (111,417)
+E 4
+Moved from (111,417) to (115,417)
+F 83
+Moved from (115,417) to (198,417)
+W 3
+Moved from (198,417) to (201,417)
+N 1
+Moved from (201,417) to (201,418)
+R 90
+Now facing: South
+F 99
+Moved from (201,418) to (201,319)
+W 5
+Moved from (201,319) to (206,319)
+W 4
+Moved from (206,319) to (210,319)
+F 19
+Moved from (210,319) to (210,300)
+N 3
+Moved from (210,300) to (210,303)
+W 1
+Moved from (210,303) to (211,303)
+W 5
+Moved from (211,303) to (216,303)
+F 70
+Moved from (216,303) to (216,233)
+R 180
+Now facing: North
+R 90
+Now facing: East
+F 58
+Moved from (216,233) to (274,233)
+E 5
+Moved from (274,233) to (279,233)
+N 3
+Moved from (279,233) to (279,236)
+R 90
+Now facing: South
+N 4
+Moved from (279,236) to (279,240)
+F 86
+Moved from (279,240) to (279,154)
+N 4
+Moved from (279,154) to (279,158)
+F 70
+Moved from (279,158) to (279,88)
+L 90
+Now facing: West
+F 36
+Moved from (279,88) to (243,88)
+R 90
+Now facing: North
+S 4
+Moved from (243,88) to (243,92)
+R 180
+Now facing: South
+N 5
+Moved from (243,92) to (243,97)
+F 81
+Moved from (243,97) to (243,16)
+W 5
+Moved from (243,16) to (248,16)
+R 90
+Now facing: West
+E 5
+Moved from (248,16) to (253,16)
+L 90
+Now facing: North
+F 73
+Moved from (253,16) to (253,89)
+S 5
+Moved from (253,89) to (253,94)
+E 3
+Moved from (253,94) to (256,94)
+N 1
+Moved from (256,94) to (256,95)
+F 27
+Moved from (256,95) to (256,122)
+E 2
+Moved from (256,122) to (258,122)
+N 3
+Moved from (258,122) to (258,125)
+L 180
+Now facing: South
+W 2
+Moved from (258,125) to (260,125)
+F 24
+Moved from (260,125) to (260,101)
+N 2
+Moved from (260,101) to (260,103)
+L 90
+Now facing: West
+F 69
+Moved from (260,103) to (191,103)
+N 2
+Moved from (191,103) to (191,105)
+E 3
+Moved from (191,105) to (194,105)
+F 49
+Moved from (194,105) to (145,105)
+L 90
+Now facing: North
+S 4
+Moved from (145,105) to (145,109)
+W 5
+Moved from (145,109) to (150,109)
+F 18
+Moved from (150,109) to (150,127)
+R 180
+Now facing: South
+F 62
+Moved from (150,127) to (150,65)
+S 2
+Moved from (150,65) to (150,67)
+F 65
+Moved from (150,67) to (150,2)
+E 3
+Moved from (150,2) to (153,2)
+F 100
+Moved from (153,2) to (153,-98)
+N 1
+Moved from (153,-98) to (153,-97)
+F 96
+Moved from (153,-97) to (153,-193)
+W 1
+Moved from (153,-193) to (154,-193)
+F 75
+Moved from (154,-193) to (154,-268)
+L 180
+Now facing: North
+W 2
+Moved from (154,-268) to (156,-268)
+S 2
+Moved from (156,-268) to (156,-266)
+F 93
+Moved from (156,-266) to (156,-173)
+E 5
+Moved from (156,-173) to (161,-173)
+S 3
+Moved from (161,-173) to (161,-170)
+R 90
+Now facing: East
+S 2
+Moved from (161,-170) to (161,-168)
+F 34
+Moved from (161,-168) to (195,-168)
+R 90
+Now facing: South
+F 83
+Moved from (195,-168) to (195,-251)
+S 1
+Moved from (195,-251) to (195,-250)
+W 1
+Moved from (195,-250) to (196,-250)
+F 58
+Moved from (196,-250) to (196,-308)
+L 180
+Now facing: North
+N 4
+Moved from (196,-308) to (196,-304)
+E 1
+Moved from (196,-304) to (197,-304)
+R 90
+Now facing: East
+W 2
+Moved from (197,-304) to (199,-304)
+F 93
+Moved from (199,-304) to (292,-304)
+S 3
+Moved from (292,-304) to (292,-301)
+F 20
+Moved from (292,-301) to (312,-301)
+R 90
+Now facing: South
+N 3
+Moved from (312,-301) to (312,-298)
+E 3
+Moved from (312,-298) to (315,-298)
+N 3
+Moved from (315,-298) to (315,-295)
+L 90
+Now facing: West
+F 8
+Moved from (315,-295) to (307,-295)
+S 3
+Moved from (307,-295) to (307,-292)
+F 18
+Moved from (307,-292) to (289,-292)
+S 3
+Moved from (289,-292) to (289,-289)
+N 2
+Moved from (289,-289) to (289,-287)
+F 6
+Moved from (289,-287) to (283,-287)
+L 270
+Now facing: South
+F 70
+Moved from (283,-287) to (283,-357)
+W 5
+Moved from (283,-357) to (288,-357)
+S 3
+Moved from (288,-357) to (288,-354)
+F 54
+Moved from (288,-354) to (288,-408)
+E 2
+Moved from (288,-408) to (290,-408)
+F 75
+Moved from (290,-408) to (290,-483)
+E 3
+Moved from (290,-483) to (293,-483)
+R 90
+Now facing: West
+N 2
+Moved from (293,-483) to (293,-481)
+W 3
+Moved from (293,-481) to (296,-481)
+L 90
+Now facing: North
+E 4
+Moved from (296,-481) to (300,-481)
+F 58
+Moved from (300,-481) to (300,-423)
+N 5
+Moved from (300,-423) to (300,-418)
+F 97
+Moved from (300,-418) to (300,-321)
+W 2
+Moved from (300,-321) to (302,-321)
+L 90
+Now facing: East
+W 5
+Moved from (302,-321) to (307,-321)
+S 2
+Moved from (307,-321) to (307,-319)
+W 1
+Moved from (307,-319) to (308,-319)
+S 5
+Moved from (308,-319) to (308,-314)
+F 85
+Moved from (308,-314) to (393,-314)
+N 1
+Moved from (393,-314) to (393,-313)
+E 1
+Moved from (393,-313) to (394,-313)
+N 4
+Moved from (394,-313) to (394,-309)
+E 4
+Moved from (394,-309) to (398,-309)
+L 90
+Now facing: South
+E 1
+Moved from (398,-309) to (399,-309)
+R 90
+Now facing: West
+S 5
+Moved from (399,-309) to (399,-304)
+L 180
+Now facing: East
+R 270
+Now facing: North
+N 1
+Moved from (399,-304) to (399,-303)
+L 90
+Now facing: East
+E 4
+Moved from (399,-303) to (403,-303)
+N 3
+Moved from (403,-303) to (403,-300)
+F 45
+Moved from (403,-300) to (448,-300)
+N 2
+Moved from (448,-300) to (448,-298)
+F 68
+Moved from (448,-298) to (516,-298)
+R 90
+Now facing: South
+F 36
+Moved from (516,-298) to (516,-334)
+N 5
+Moved from (516,-334) to (516,-329)
+F 82
+Moved from (516,-329) to (516,-411)
+S 5
+Moved from (516,-411) to (516,-406)
+E 4
+Moved from (516,-406) to (520,-406)
+R 180
+Now facing: North
+S 2
+Moved from (520,-406) to (520,-404)
+L 180
+Now facing: South
+N 3
+Moved from (520,-404) to (520,-401)
+R 270
+Now facing: East
+W 5
+Moved from (520,-401) to (525,-401)
+F 70
+Moved from (525,-401) to (595,-401)
+L 90
+Now facing: South
+W 5
+Moved from (595,-401) to (600,-401)
+F 80
+Moved from (600,-401) to (600,-481)
+W 4
+Moved from (600,-481) to (604,-481)
+N 2
+Moved from (604,-481) to (604,-479)
+R 90
+Now facing: West
+S 3
+Moved from (604,-479) to (604,-476)
+W 1
+Moved from (604,-476) to (605,-476)
+F 23
+Moved from (605,-476) to (582,-476)
+N 1
+Moved from (582,-476) to (582,-475)
+W 1
+Moved from (582,-475) to (583,-475)
+N 4
+Moved from (583,-475) to (583,-471)
+F 70
+Moved from (583,-471) to (513,-471)
+S 3
+Moved from (513,-471) to (513,-468)
+L 180
+Now facing: East
+F 57
+Moved from (513,-468) to (570,-468)
+R 90
+Now facing: South
+L 90
+Now facing: West
+F 55
+Moved from (570,-468) to (515,-468)
+L 90
+Now facing: North
+N 4
+Moved from (515,-468) to (515,-464)
+F 87
+Moved from (515,-464) to (515,-377)
+L 90
+Now facing: East
+F 1
+Moved from (515,-377) to (516,-377)
+L 270
+Now facing: North
+F 17
+Moved from (516,-377) to (516,-360)
+N 5
+Moved from (516,-360) to (516,-355)
+R 180
+Now facing: South
+F 84
+Moved from (516,-355) to (516,-439)
+R 90
+Now facing: West
+W 5
+Moved from (516,-439) to (521,-439)
+F 7
+Moved from (521,-439) to (514,-439)
+W 1
+Moved from (514,-439) to (515,-439)
+S 1
+Moved from (515,-439) to (515,-438)
+E 3
+Moved from (515,-438) to (518,-438)
+F 46
+Moved from (518,-438) to (472,-438)
+S 5
+Moved from (472,-438) to (472,-433)
+E 2
+Moved from (472,-433) to (474,-433)
+F 23
+Moved from (474,-433) to (451,-433)
+R 90
+Now facing: North
+E 4
+Moved from (451,-433) to (455,-433)
+W 2
+Moved from (455,-433) to (457,-433)
+F 96
+Moved from (457,-433) to (457,-337)
+E 5
+Moved from (457,-337) to (462,-337)
+L 90
+Now facing: East
+F 65
+Moved from (462,-337) to (527,-337)
+F 3
+Moved from (527,-337) to (530,-337)
+S 5
+Moved from (530,-337) to (530,-332)
+E 5
+Moved from (530,-332) to (535,-332)
+N 3
+Moved from (535,-332) to (535,-329)
+W 4
+Moved from (535,-329) to (539,-329)
+L 90
+Now facing: South
+S 2
+Moved from (539,-329) to (539,-327)
+F 57
+Moved from (539,-327) to (539,-384)
+E 1
+Moved from (539,-384) to (540,-384)
+R 90
+Now facing: West
+F 68
+Moved from (540,-384) to (472,-384)
+E 3
+Moved from (472,-384) to (475,-384)
+L 90
+Now facing: North
+W 1
+Moved from (475,-384) to (476,-384)
+F 29
+Moved from (476,-384) to (476,-355)
+N 5
+Moved from (476,-355) to (476,-350)
+W 5
+Moved from (476,-350) to (481,-350)
+N 1
+Moved from (481,-350) to (481,-349)
+F 95
+Moved from (481,-349) to (481,-254)
+N 1
+Moved from (481,-254) to (481,-253)
+L 90
+Now facing: East
+F 31
+Moved from (481,-253) to (512,-253)
+S 5
+Moved from (512,-253) to (512,-248)
+L 180
+Now facing: West
+N 2
+Moved from (512,-248) to (512,-246)
+W 5
+Moved from (512,-246) to (517,-246)
+R 90
+Now facing: North
+F 27
+Moved from (517,-246) to (517,-219)
+E 1
+Moved from (517,-219) to (518,-219)
+R 90
+Now facing: East
+E 3
+Moved from (518,-219) to (521,-219)
+S 5
+Moved from (521,-219) to (521,-214)
+F 10
+Moved from (521,-214) to (531,-214)
+R 90
+Now facing: South
+N 4
+Moved from (531,-214) to (531,-210)
+E 2
+Moved from (531,-210) to (533,-210)
+F 25
+Moved from (533,-210) to (533,-235)
+S 4
+Moved from (533,-235) to (533,-231)
+E 5
+Moved from (533,-231) to (538,-231)
+F 51
+Moved from (538,-231) to (538,-282)
+N 3
+Moved from (538,-282) to (538,-279)
+W 2
+Moved from (538,-279) to (540,-279)
+L 90
+Now facing: West
+S 3
+Moved from (540,-279) to (540,-276)
+L 180
+Now facing: East
+F 17
+Moved from (540,-276) to (557,-276)
+E 4
+Moved from (557,-276) to (561,-276)
+F 93
+Moved from (561,-276) to (654,-276)
+E 3
+Moved from (654,-276) to (657,-276)
+L 90
+Now facing: South
+F 41
+Moved from (657,-276) to (657,-317)
+L 90
+Now facing: West
+S 5
+Moved from (657,-317) to (657,-312)
+L 90
+Now facing: North
+W 5
+Moved from (657,-312) to (662,-312)
+N 1
+Moved from (662,-312) to (662,-311)
+F 81
+Moved from (662,-311) to (662,-230)
+L 90
+Now facing: East
+E 4
+Moved from (662,-230) to (666,-230)
+W 2
+Moved from (666,-230) to (668,-230)
+R 90
+Now facing: South
+W 1
+Moved from (668,-230) to (669,-230)
+S 5
+Moved from (669,-230) to (669,-225)
+R 90
+Now facing: West
+F 39
+Moved from (669,-225) to (630,-225)
+W 3
+Moved from (630,-225) to (633,-225)
+R 90
+Now facing: North
+N 5
+Moved from (633,-225) to (633,-220)
+E 1
+Moved from (633,-220) to (634,-220)
+L 90
+Now facing: East
+F 82
+Moved from (634,-220) to (716,-220)
+S 3
+Moved from (716,-220) to (716,-217)
+R 90
+Now facing: South
+W 4
+Moved from (716,-217) to (720,-217)
+F 66
+Moved from (720,-217) to (720,-283)
+F 4
+Moved from (720,-283) to (720,-287)
+L 90
+Now facing: West
+F 77
+Moved from (720,-287) to (643,-287)
+R 90
+Now facing: North
+E 1
+Moved from (643,-287) to (644,-287)
+L 90
+Now facing: East
+F 53
+Moved from (644,-287) to (697,-287)
+S 4
+Moved from (697,-287) to (697,-283)
+F 35
+Moved from (697,-283) to (732,-283)
+W 1
+Moved from (732,-283) to (733,-283)
+F 64
+Moved from (733,-283) to (797,-283)
+R 90
+Now facing: South
+F 9
+Moved from (797,-283) to (797,-292)
+S 1
+Moved from (797,-292) to (797,-291)
+E 1
+Moved from (797,-291) to (798,-291)
+L 90
+Now facing: West
+W 4
+Moved from (798,-291) to (802,-291)
+R 90
+Now facing: North
+S 2
+Moved from (802,-291) to (802,-289)
+W 5
+Moved from (802,-289) to (807,-289)
+R 90
+Now facing: East
+S 4
+Moved from (807,-289) to (807,-285)
+L 90
+Now facing: South
+N 3
+Moved from (807,-285) to (807,-282)
+F 8
+Moved from (807,-282) to (807,-290)
+L 180
+Now facing: North
+N 5
+Moved from (807,-290) to (807,-285)
+E 5
+Moved from (807,-285) to (812,-285)
+N 4
+Moved from (812,-285) to (812,-281)
+F 35
+Moved from (812,-281) to (812,-246)
+N 5
+Moved from (812,-246) to (812,-241)
+W 1
+Moved from (812,-241) to (813,-241)
+N 1
+Moved from (813,-241) to (813,-240)
+E 5
+Moved from (813,-240) to (818,-240)
+F 15
+Moved from (818,-240) to (818,-225)
+R 180
+Now facing: South
+F 92
+Moved from (818,-225) to (818,-317)
+W 3
+Moved from (818,-317) to (821,-317)
+L 90
+Now facing: West
+F 4
+Moved from (821,-317) to (817,-317)
+L 90
+Now facing: North
+E 1
+Moved from (817,-317) to (818,-317)
+S 3
+Moved from (818,-317) to (818,-314)
+W 3
+Moved from (818,-314) to (821,-314)
+R 90
+Now facing: East
+F 37
+Moved from (821,-314) to (858,-314)
+N 5
+Moved from (858,-314) to (858,-309)
+F 19
+Moved from (858,-309) to (877,-309)
+S 2
+Moved from (877,-309) to (877,-307)
+F 98
+Moved from (877,-307) to (975,-307)
+L 90
+Now facing: South
+F 24
+Moved from (975,-307) to (975,-331)
+W 3
+Moved from (975,-331) to (978,-331)
+F 68
+Moved from (978,-331) to (978,-399)
+N 5
+Moved from (978,-399) to (978,-394)
+R 90
+Now facing: West
+W 3
+Moved from (978,-394) to (981,-394)
+L 90
+Now facing: North
+W 3
+Moved from (981,-394) to (984,-394)
+L 90
+Now facing: East
+S 1
+Moved from (984,-394) to (984,-393)
+L 90
+Now facing: South
+S 4
+Moved from (984,-393) to (984,-389)
+W 3
+Moved from (984,-389) to (987,-389)
+F 56
+Moved from (987,-389) to (987,-445)
+N 4
+Moved from (987,-445) to (987,-441)
+R 90
+Now facing: West
+E 3
+Moved from (987,-441) to (990,-441)
+W 1
+Moved from (990,-441) to (991,-441)
+L 90
+Now facing: North
+E 4
+Moved from (991,-441) to (995,-441)
+N 3
+Moved from (995,-441) to (995,-438)
+R 180
+Now facing: South
+E 1
+Moved from (995,-438) to (996,-438)
+S 1
+Moved from (996,-438) to (996,-437)
+W 2
+Moved from (996,-437) to (998,-437)
+R 90
+Now facing: West
+N 3
+Moved from (998,-437) to (998,-434)
+F 82
+Moved from (998,-434) to (916,-434)
+N 2
+Moved from (916,-434) to (916,-432)
+F 37
+Moved from (916,-432) to (879,-432)
+S 3
+Moved from (879,-432) to (879,-429)
+L 180
+Now facing: East
+E 2
+Moved from (879,-429) to (881,-429)
+L 180
+Now facing: West
+F 6
+Moved from (881,-429) to (875,-429)
+N 2
+Moved from (875,-429) to (875,-427)
+F 96
+Moved from (875,-427) to (779,-427)
+E 2
+Moved from (779,-427) to (781,-427)
+R 180
+Now facing: East
+E 2
+Moved from (781,-427) to (783,-427)
+W 3
+Moved from (783,-427) to (786,-427)
+R 90
+Now facing: South
+E 2
+Moved from (786,-427) to (788,-427)
+S 5
+Moved from (788,-427) to (788,-422)
+S 1
+Moved from (788,-422) to (788,-421)
+F 23
+Moved from (788,-421) to (788,-444)
+R 90
+Now facing: West
+W 5
+Moved from (788,-444) to (793,-444)
+F 75
+Moved from (793,-444) to (718,-444)
+S 1
+Moved from (718,-444) to (718,-443)
+L 90
+Now facing: North
+S 3
+Moved from (718,-443) to (718,-440)
+E 1
+Moved from (718,-440) to (719,-440)
+F 83
+Moved from (719,-440) to (719,-357)
+W 4
+Moved from (719,-357) to (723,-357)
+L 180
+Now facing: South
+W 5
+Moved from (723,-357) to (728,-357)
+L 90
+Now facing: West
+N 1
+Moved from (728,-357) to (728,-356)
+E 1
+Moved from (728,-356) to (729,-356)
+S 2
+Moved from (729,-356) to (729,-354)
+F 17
+Moved from (729,-354) to (712,-354)
+L 90
+Now facing: North
+S 2
+Moved from (712,-354) to (712,-352)
+F 53
+Moved from (712,-352) to (712,-299)
+R 90
+Now facing: East
+S 3
+Moved from (712,-299) to (712,-296)
+N 3
+Moved from (712,-296) to (712,-293)
+W 1
+Moved from (712,-293) to (713,-293)
+N 4
+Moved from (713,-293) to (713,-289)
+L 180
+Now facing: West
+L 90
+Now facing: North
+E 3
+Moved from (713,-289) to (716,-289)
+F 9
+Moved from (716,-289) to (716,-280)
+S 5
+Moved from (716,-280) to (716,-275)
+F 24
+Moved from (716,-275) to (716,-251)
+W 3
+Moved from (716,-251) to (719,-251)
+E 5
+Moved from (719,-251) to (724,-251)
+N 2
+Moved from (724,-251) to (724,-249)
+F 73
+Moved from (724,-249) to (724,-176)
+N 1
+Moved from (724,-176) to (724,-175)
+F 28
+Moved from (724,-175) to (724,-147)
+N 2
+Moved from (724,-147) to (724,-145)
+W 4
+Moved from (724,-145) to (728,-145)
+N 3
+Moved from (728,-145) to (728,-142)
+F 53
+Moved from (728,-142) to (728,-89)
+E 5
+Moved from (728,-89) to (733,-89)
+F 47
+Moved from (733,-89) to (733,-42)
+W 2
+Moved from (733,-42) to (735,-42)
+F 60
+Moved from (735,-42) to (735,18)
+L 90
+Now facing: East
+E 2
+Moved from (735,18) to (737,18)
+F 19
+Moved from (737,18) to (756,18)
+S 1
+Moved from (756,18) to (756,19)
+F 63
+Moved from (756,19) to (819,19)
+W 5
+Moved from (819,19) to (824,19)
+F 100
+Moved from (824,19) to (924,19)
+N 3
+Moved from (924,19) to (924,22)
+L 180
+Now facing: West
+F 83
+Moved from (924,22) to (841,22)
+N 4
+Moved from (841,22) to (841,26)
+W 5
+Moved from (841,26) to (846,26)
+F 37
+Moved from (846,26) to (809,26)
+S 1
+Moved from (809,26) to (809,27)
+F 50
+Moved from (809,27) to (759,27)
+E 1
+Moved from (759,27) to (760,27)
+N 2
+Moved from (760,27) to (760,29)
+W 3
+Moved from (760,29) to (763,29)
+R 90
+Now facing: North
+F 85
+Moved from (763,29) to (763,114)
+S 4
+Moved from (763,114) to (763,118)
+F 72
+Moved from (763,118) to (763,190)
+N 4
+Moved from (763,190) to (763,194)
+L 90
+Now facing: East
+F 48
+Moved from (763,194) to (811,194)
+R 90
+Now facing: South
+F 99
+Moved from (811,194) to (811,95)
+R 90
+Now facing: West
+F 58
+Moved from (811,95) to (753,95)
+W 3
+Moved from (753,95) to (756,95)
+W 4
+Moved from (756,95) to (760,95)
+F 64
+Moved from (760,95) to (696,95)
+E 1
+Moved from (696,95) to (697,95)
+R 90
+Now facing: North
+F 74
+Moved from (697,95) to (697,169)
+L 90
+Now facing: East
+F 23
+Moved from (697,169) to (720,169)
+N 3
+Moved from (720,169) to (720,172)
+N 3
+Moved from (720,172) to (720,175)
+E 1
+Moved from (720,175) to (721,175)
+S 1
+Moved from (721,175) to (721,176)
+W 5
+Moved from (721,176) to (726,176)
+L 180
+Now facing: West
+F 98
+Moved from (726,176) to (628,176)
+L 90
+Now facing: North
+F 36
+Moved from (628,176) to (628,212)
+W 4
+Moved from (628,212) to (632,212)
+S 2
+Moved from (632,212) to (632,214)
+W 3
+Moved from (632,214) to (635,214)
+F 9
+Moved from (635,214) to (635,223)
+F 72
+Moved from (635,223) to (635,295)
+W 5
+Moved from (635,295) to (640,295)
+F 78
+Moved from (640,295) to (640,373)
+N 2
+Moved from (640,373) to (640,375)
+F 65
+Moved from (640,375) to (640,440)
+S 3
+Moved from (640,440) to (640,443)
+F 47
+Moved from (640,443) to (640,490)
+S 5
+Moved from (640,490) to (640,495)
+R 90
+Now facing: East
+F 68
+Moved from (640,495) to (708,495)
+L 180
+Now facing: West
+W 2
+Moved from (708,495) to (710,495)
+F 7
+Moved from (710,495) to (703,495)
+E 2
+Moved from (703,495) to (705,495)
+E 3
+Moved from (705,495) to (708,495)
+S 4
+Moved from (708,495) to (708,499)
+R 90
+Now facing: North
+N 2
+Moved from (708,499) to (708,501)
+L 180
+Now facing: South
+W 2
+Moved from (708,501) to (710,501)
+R 180
+Now facing: North
+E 4
+Moved from (710,501) to (714,501)
+R 90
+Now facing: East
+W 3
+Moved from (714,501) to (717,501)
+L 90
+Now facing: South
+E 4
+Moved from (717,501) to (721,501)
+F 54
+Moved from (721,501) to (721,447)
+L 180
+Now facing: North
+E 2
+Moved from (721,447) to (723,447)
+F 6
+Moved from (723,447) to (723,453)
+W 5
+Moved from (723,453) to (728,453)
+F 82
+Moved from (728,453) to (728,535)
+E 4
+Moved from (728,535) to (732,535)
+R 90
+Now facing: East
+E 4
+Moved from (732,535) to (736,535)
+F 25
+Moved from (736,535) to (761,535)
+N 2
+Moved from (761,535) to (761,537)
+R 270
+Now facing: North
+N 4
+Moved from (761,537) to (761,541)
+F 18
+Moved from (761,541) to (761,559)
+N 5
+Moved from (761,559) to (761,564)
+R 90
+Now facing: East
+S 3
+Moved from (761,564) to (761,567)
+R 90
+Now facing: South
+F 38
+Moved from (761,567) to (761,529)
+R 90
+Now facing: West
+F 97
+Moved from (761,529) to (664,529)
+W 4
+Moved from (664,529) to (668,529)
+F 85
+Moved from (668,529) to (583,529)
+S 4
+Moved from (583,529) to (583,533)
+F 56
+Moved from (583,533) to (527,533)
+E 4
+Moved from (527,533) to (531,533)
+S 1
+Moved from (531,533) to (531,534)
+F 40
+Moved from (531,534) to (491,534)
+W 3
+Moved from (491,534) to (494,534)
+F 52
+Moved from (494,534) to (442,534)
+L 90
+Now facing: North
+F 76
+Moved from (442,534) to (442,610)
+N 4
+Moved from (442,610) to (442,614)
+F 15
+Moved from (442,614) to (442,629)
+S 2
+Moved from (442,629) to (442,631)
+F 22
+Moved from (442,631) to (442,653)
+S 5
+Moved from (442,653) to (442,658)
+L 180
+Now facing: South
+F 91
+Moved from (442,658) to (442,567)
+L 180
+Now facing: North
+F 8
+Moved from (442,567) to (442,575)
+L 90
+Now facing: East
+E 4
+Moved from (442,575) to (446,575)
+N 4
+Moved from (446,575) to (446,579)
+F 67
+Moved from (446,579) to (513,579)
+L 90
+Now facing: South
+S 3
+Moved from (513,579) to (513,582)
+R 180
+Now facing: North
+R 90
+Now facing: East
+N 4
+Moved from (513,582) to (513,586)
+F 71
+Moved from (513,586) to (584,586)
+W 3
+Moved from (584,586) to (587,586)
+F 34
+Moved from (587,586) to (621,586)
+E 2
+Moved from (621,586) to (623,586)
+N 1
+Moved from (623,586) to (623,587)
+F 43
+Moved from (623,587) to (666,587)
+W 5
+Moved from (666,587) to (671,587)
+L 180
+Now facing: West
+N 5
+Moved from (671,587) to (671,592)
+W 2
+Moved from (671,592) to (673,592)
+F 42
+Moved from (673,592) to (631,592)
+R 90
+Now facing: North
+W 3
+Moved from (631,592) to (634,592)
+F 39
+Moved from (634,592) to (634,631)
+E 1
+Moved from (634,631) to (635,631)
+S 2
+Moved from (635,631) to (635,633)
+L 180
+Now facing: South
+N 5
+Moved from (635,633) to (635,638)
+E 3
+Moved from (635,638) to (638,638)
+N 5
+Moved from (638,638) to (638,643)
+F 28
+Moved from (638,643) to (638,615)
+E 1
+Moved from (638,615) to (639,615)
+R 90
+Now facing: West
+S 3
+Moved from (639,615) to (639,618)
+F 40
+Moved from (639,618) to (599,618)
+L 90
+Now facing: North
+S 2
+Moved from (599,618) to (599,620)
+S 2
+Moved from (599,620) to (599,622)
+L 90
+Now facing: East
+W 5
+Moved from (599,622) to (604,622)
+L 90
+Now facing: South
+F 93
+Moved from (604,622) to (604,529)
+R 180
+Now facing: North
+W 4
+Moved from (604,529) to (608,529)
+S 4
+Moved from (608,529) to (608,533)
+W 4
+Moved from (608,533) to (612,533)
+F 100
+Moved from (612,533) to (612,633)
+S 3
+Moved from (612,633) to (612,636)
+R 90
+Now facing: East
+E 2
+Moved from (612,636) to (614,636)
+L 180
+Now facing: West
+W 1
+Moved from (614,636) to (615,636)
+E 3
+Moved from (615,636) to (618,636)
+S 5
+Moved from (618,636) to (618,641)
+L 90
+Now facing: North
+F 87
+Moved from (618,641) to (618,728)
+N 1
+Moved from (618,728) to (618,729)
+R 90
+Now facing: East
+F 3
+Moved from (618,729) to (621,729)
+R 90
+Now facing: South
+E 5
+Moved from (621,729) to (626,729)
+R 90
+Now facing: West
+S 3
+Moved from (626,729) to (626,732)
+F 45
+Moved from (626,732) to (581,732)
+L 90
+Now facing: North
+S 2
+Moved from (581,732) to (581,734)
+F 42
+Moved from (581,734) to (581,776)
+R 90
+Now facing: East
+F 95
+Moved from (581,776) to (676,776)
+L 90
+Now facing: South
+E 1
+Moved from (676,776) to (677,776)
+N 3
+Moved from (677,776) to (677,779)
+R 90
+Now facing: West
+F 73
+Moved from (677,779) to (604,779)
+S 3
+Moved from (604,779) to (604,782)
+E 1
+Moved from (604,782) to (605,782)
+L 90
+Now facing: North
+S 2
+Moved from (605,782) to (605,784)
+E 3
+Moved from (605,784) to (608,784)
+L 90
+Now facing: East
+L 270
+Now facing: North
+F 38
+Moved from (608,784) to (608,822)
+S 5
+Moved from (608,822) to (608,827)
+R 90
+Now facing: East
+F 42
+Moved from (608,827) to (650,827)
+L 90
+Now facing: South
+N 1
+Moved from (650,827) to (650,828)
+F 7
+Moved from (650,828) to (650,821)
+S 3
+Moved from (650,821) to (650,824)
+F 65
+Moved from (650,824) to (650,759)
+N 2
+Moved from (650,759) to (650,761)
+F 42
+Moved from (650,761) to (650,719)
+L 180
+Now facing: North
+W 5
+Moved from (650,719) to (655,719)
+S 4
+Moved from (655,719) to (655,723)
+E 4
+Moved from (655,723) to (659,723)
+F 65
+Moved from (659,723) to (659,788)
+S 4
+Moved from (659,788) to (659,792)
+E 5
+Moved from (659,792) to (664,792)
+F 51
+Moved from (664,792) to (664,843)
+E 4
+Moved from (664,843) to (668,843)
+R 180
+Now facing: South
+F 70
+Moved from (668,843) to (668,773)
+R 90
+Now facing: West
+F 28
+Moved from (668,773) to (640,773)
+N 5
+Moved from (640,773) to (640,778)
+W 5
+Moved from (640,778) to (645,778)
+N 1
+Moved from (645,778) to (645,779)
+F 96
+Moved from (645,779) to (549,779)
+L 90
+Now facing: North
+W 4
+Moved from (549,779) to (553,779)
+S 3
+Moved from (553,779) to (553,782)
+W 3
+Moved from (553,782) to (556,782)
+F 89
+Moved from (556,782) to (556,871)
+W 1
+Moved from (556,871) to (557,871)
+L 90
+Now facing: East
+F 75
+Moved from (557,871) to (632,871)
+L 270
+Now facing: North
+S 3
+Moved from (632,871) to (632,874)
+R 90
+Now facing: East
+L 90
+Now facing: South
+F 7
+Moved from (632,874) to (632,867)
+E 2
+Moved from (632,867) to (634,867)
+F 24
+Moved from (634,867) to (634,843)
+R 180
+Now facing: North
+S 2
+Moved from (634,843) to (634,845)
+L 180
+Now facing: South
+F 48
+Moved from (634,845) to (634,797)
+R 90
+Now facing: West
+F 37
+Moved from (634,797) to (597,797)
+W 2
+Moved from (597,797) to (599,797)
+R 90
+Now facing: North
+W 4
+Moved from (599,797) to (603,797)
+L 90
+Now facing: East
+W 3
+Moved from (603,797) to (606,797)
+F 81
+Moved from (606,797) to (687,797)
+E 4
+Moved from (687,797) to (691,797)
+N 2
+Moved from (691,797) to (691,799)
+F 39
+Moved from (691,799) to (730,799)
+E 4
+Moved from (730,799) to (734,799)
+N 1
+Moved from (734,799) to (734,800)
+W 1
+Moved from (734,800) to (735,800)
+L 90
+Now facing: South
+F 59
+Moved from (735,800) to (735,741)
+manhattan distance: 1476
