@@ -3,7 +3,10 @@ use std::fmt::{Display, Formatter, Result};
 use std::fs::read_to_string;
 use std::ops::{AddAssign, Mul};
 
-#[derive(PartialEq, Clone, Copy, Debug)]
+//================================================================================================
+//| TYPE DEFS                                                                                    |
+//================================================================================================
+#[derive(Clone, Copy)]
 pub struct Point {
     x: i32,
     y: i32,
@@ -17,6 +20,17 @@ pub enum Direction {
     West,
 }
 
+pub struct Ship {
+    location: Point,
+    facing: Direction,
+    waypoint: Point,
+}
+
+//================================================================================================
+//| TRAITS                                                                                       |
+//================================================================================================
+
+// impl Display trait so i can print Directions and Points
 impl Display for Direction {
     fn fmt(&self, f: &mut Formatter<'_>) -> Result {
         match self {
@@ -34,12 +48,6 @@ impl Display for Point {
     }
 }
 
-pub struct Ship {
-    location: Point,
-    facing: Direction,
-    waypoint: Point,
-}
-
 // cannot make impl blocks for primitive types
 // so must be implenmented as a trait
 trait Negate {
@@ -52,21 +60,43 @@ impl Negate for i32 {
     }
 }
 
+// for multiplying a point by an int
+impl Mul<Point> for i32 {
+    type Output = Point;
+    fn mul(self, rhs: Point) -> Point {
+        Point {
+            x: rhs.x * self,
+            y: rhs.y * self,
+        }
+    }
+}
+
+// so i can use the += operator on points
+impl AddAssign for Point {
+    fn add_assign(&mut self, other: Self) {
+        *self = Self {
+            x: self.x + other.x,
+            y: self.y + other.y,
+        };
+    }
+}
+
+//================================================================================================
+//| IMPLS                                                                                        |
+//================================================================================================
+
 impl Point {
+    // made this so initialising ships is prettier
     pub fn new(x: i32, y: i32) -> Point {
         Point { x, y }
     }
 
+    // for the final calculation (assumes you started at (0,0))
     pub fn manhattan_origin(p: Point) -> i32 {
         p.x.abs() + p.y.abs()
     }
 
-    fn get_relative_pos(&self, p: &Point) -> Point {
-        Point {
-            x: p.x - self.x,
-            y: p.y - self.y,
-        }
-    }
+    // rotates a point around the origin
     pub fn rotate(&mut self, degrees: i32) {
         // (degrees/90)%4 give the number of rotations needed
         let mut degrees = (degrees / 90) % 4;
@@ -98,8 +128,10 @@ impl Point {
         }
         //y values changed here
         if tempy.is_positive() {
+            // north of ship -> west of ship
             self.x = tempy.neg();
         } else {
+            // south of ship -> east of ship
             self.x = tempy.abs();
         }
     }
@@ -115,18 +147,22 @@ impl Point {
         }
         //y values changed here
         if tempy.is_positive() {
+            // north of ship -> east of ship
             self.x = tempy;
         } else {
+            // north of ship -> west of ship
             self.x = tempy;
         }
     }
 
     fn rotate_180(&mut self) {
+        // flip east -> west or west -> east
         if let true = self.x.is_positive() {
             self.x = self.x.neg()
         } else {
             self.x = self.x.abs()
         }
+        // flip north -> south or south -> north
         if let true = self.y.is_positive() {
             self.y = self.y.neg()
         } else {
@@ -135,26 +171,8 @@ impl Point {
     }
 }
 
-impl Mul<Point> for i32 {
-    type Output = Point;
-    fn mul(self, rhs: Point) -> Point {
-        Point {
-            x: rhs.x * self,
-            y: rhs.y * self,
-        }
-    }
-}
-
-impl AddAssign for Point {
-    fn add_assign(&mut self, other: Self) {
-        *self = Self {
-            x: self.x + other.x,
-            y: self.y + other.y,
-        };
-    }
-}
-
 impl Ship {
+    // can't just call it move since that's a keyword
     pub fn move_by(&mut self, x: i32, y: i32) {
         self.location.x += x;
         self.location.y += y;
@@ -165,6 +183,7 @@ impl Ship {
         self.waypoint.y += y;
     }
 
+    // move this ship in the direction it's facing by amount
     pub fn forward(&mut self, amount: i32) {
         match self.facing {
             Direction::North => self.move_by(0, amount),
@@ -174,12 +193,13 @@ impl Ship {
         };
     }
 
+    // move ship towards the waypoint amount times
     pub fn go_to_waypoint(&mut self, amount: i32) {
-        let temp = self.location;
         //go to waypoint (rel distance away) amount times
         self.location += amount * self.waypoint;
     }
 
+    // change the direction the ship is facing
     pub fn rotate(&mut self, degrees: i32) {
         //cba to add Direction in front of these
         use Direction::{East, North, South, West};
@@ -202,6 +222,10 @@ impl Ship {
     }
 }
 
+//================================================================================================
+//| TASKS                                                                                        |
+//================================================================================================
+
 fn main() {
     let content = read_to_string("input").expect("unable to read file");
     let lines: Vec<String> = content.lines().map(|x| x.to_string()).collect();
@@ -210,6 +234,7 @@ fn main() {
 }
 
 pub fn part_one(lines: &Vec<String>) -> i32 {
+    // create ship (waypoint is irrelevant for this part)
     let mut ship = Ship {
         location: Point::new(0, 0),
         facing: Direction::East,
@@ -217,9 +242,13 @@ pub fn part_one(lines: &Vec<String>) -> i32 {
     };
     for line in lines.iter() {
         let mut iter = line.chars();
-        let inst = iter.next().unwrap();
+        let inst = iter.next().unwrap(); // get first char (the instruction)
+
+        // get the `operand` of the instruction
         let amount: String = iter.take(line.len() - 1).collect();
         let amount: i32 = amount.parse().unwrap();
+
+        // execute the correct instruction
         match inst {
             'N' => ship.move_by(0, amount),
             'E' => ship.move_by(amount, 0),
@@ -231,20 +260,27 @@ pub fn part_one(lines: &Vec<String>) -> i32 {
             _ => panic!("didn't recognise instruction {}", inst),
         }
     }
+    // do final calculation
     Point::manhattan_origin(ship.location)
 }
 
 pub fn part_two(lines: &Vec<String>) -> i32 {
+    // create ship (waypoint *is* relevent)
     let mut ship = Ship {
         location: Point::new(0, 0),
         facing: Direction::East,
         waypoint: Point::new(10, 1), //10 units east 1 unit north
     };
+
     for line in lines.iter() {
         let mut iter = line.chars();
-        let inst = iter.next().unwrap();
+        let inst = iter.next().unwrap(); // get first char (the instruction)
+
+        // get the `operand` for this instruction
         let amount: String = iter.take(line.len() - 1).collect();
         let amount: i32 = amount.parse().unwrap();
+
+        // execute the correct instructions
         match inst {
             'N' => ship.move_waypoint(0, amount),
             'E' => ship.move_waypoint(amount, 0),
@@ -256,5 +292,6 @@ pub fn part_two(lines: &Vec<String>) -> i32 {
             _ => panic!("didn't recognise instruction {}", inst),
         }
     }
+    // do the final calculation
     Point::manhattan_origin(ship.location)
 }
